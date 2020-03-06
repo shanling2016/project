@@ -51,7 +51,7 @@ public class MainClass {
                 "14",
                 5888.00f,
                 "四核十代i5-16G Ram-512Gb SSD",
-                10));
+                11));
     }
 
     /**
