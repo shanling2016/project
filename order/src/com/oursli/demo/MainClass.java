@@ -1,6 +1,6 @@
 package com.oursli.demo;
 
-import com.oursli.demo.menu.OrderFood;
+import com.oursli.demo.menu.*;
 
 import java.util.HashMap;
 import java.util.Scanner;
@@ -77,6 +77,11 @@ public class MainClass {
     public static void genMenu(HashMap<Integer, MenuClass> menu)
     {
         menu.put(1, new OrderFood());
+        menu.put(2, new ShopCart());
+        menu.put(3, new SignOrder());
+        menu.put(4, new DeleteOrder());
+        menu.put(5, new LikeSystem());
+        menu.put(6, new ExitSystem());
     }
 
     public static String genMenuString(HashMap<Integer, MenuClass> menu)
