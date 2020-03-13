@@ -28,6 +28,14 @@ public abstract class MenuClass {
      * @param s 要打印的数据
      */
     public <T> void Out(T s) {
+        System.out.print(s);
+    }
+
+    /**
+     * 向屏幕打印数据
+     * @param s 要打印的数据
+     */
+    public <T> void Outln(T s) {
         System.out.println(s);
     }
 
