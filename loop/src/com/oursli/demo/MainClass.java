@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Package:      com.oursli.demo
  * ClassName:    MainClass
- * Description:  描述
+ * Description:  循环结构作业
  * Datetime:     2020/3/17   11:43 下午
  * Author:       子文i
  */
