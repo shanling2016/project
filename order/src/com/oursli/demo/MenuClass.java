@@ -37,4 +37,23 @@ public abstract class MenuClass {
         // 返回
         return stream.nextLine();
     }
+
+    /**
+     * 向控制台输出提示
+     * @return 若用户输入y则返回true,如果输入n则返回false
+     */
+    public Boolean Tips()
+    {
+        String action = null;
+        while (true)
+        {
+            System.out.print("是否返回主菜单? (y/n)：");
+            action = new Scanner(System.in).nextLine();
+            if (action.equals("y") || action.equals("n"))
+                break;
+        }
+        if (action.equals("y"))
+            return true;
+        return false;
+    }
 }

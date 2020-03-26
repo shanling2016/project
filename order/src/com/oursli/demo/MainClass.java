@@ -13,8 +13,12 @@ import java.util.Scanner;
  * Author:       子文i
  */
 public class MainClass {
+
     public static void main(String[] args)
     {
+        // 连接数据库
+        DataUtil.InitSqlite();
+
         // 借用HashMap作为路由表
         HashMap<Integer, MenuClass> route = new HashMap<>();
 

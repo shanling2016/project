@@ -10,13 +10,13 @@ import com.oursli.demo.MenuClass;
  * Author:       子文i
  */
 public class ExitSystem extends MenuClass {
+
     @Override
-    public String getMenuName() {
-        return "退出系统";
-    }
+    public String getMenuName() { return "退出系统"; }
 
     @Override
     public Boolean Handle() {
+        this.Out("谢谢使用，欢迎下次光临！");
         return true;
     }
 }
